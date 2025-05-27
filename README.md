@@ -1,25 +1,30 @@
 # weather-web
 
-This is a simple Weather Web UI built using only **HTML** and **CSS**. It is a static front-end project that focuses on design and layout, without using any JavaScript or external APIs.
+
+This is a Weather Web App built using **HTML**, **CSS**, and **JavaScript**. It fetches real-time weather data from a weather API, allowing users to search for any city and view current weather information.
 
 ## Features
 
+* Real-time weather data fetched using a weather API
+* Search functionality for any city
 * Clean and modern user interface
 * Responsive design for various screen sizes
-* Displays weather-related information like location, temperature, weather conditions, etc. (static content)
-* Suitable as a design prototype for a weather application
+* Displays key weather details such as temperature, humidity, wind speed, and weather conditions
 
 ## How to Use
 
 1. Download or clone the project files.
-2. Open `index.html` in any web browser.
-3. Explore and customize the UI as needed.
+2. Replace the API key in the JavaScript file if necessary.
+3. Open `index.html` in any web browser.
+4. Enter the city name in the search box and view live weather updates.
 
 ## Note
 
-* This project is only for design purposes and does not display real-time weather data.
-* You can integrate it with JavaScript and a weather API in the future to make it dynamic.
+* An active internet connection is required to fetch data from the API.
+* API request limits may apply depending on the weather API service used.
 
 ## Credits
 
-Developed using only HTML and CSS as a front-end design project.
+Developed as a front-end weather application using HTML, CSS, JavaScript, and public weather APIs.
+
+
