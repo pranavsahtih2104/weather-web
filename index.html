@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather-web</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2w7ULRMJuGMyKdC-2UdzNzg2AJVf0YS2nNYx-ELaE05sTCOtiqlz4J4eShda5VR9AiHw&usqp=CAU" >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <h1 align="center">Weather-Web</h1>
+    <div class="img"><img src="https://static.vecteezy.com/system/resources/previews/003/560/931/large_2x/sunny-weather-blue-sky-and-white-clouds-clouds-against-blue-sky-background-free-photo.JPG" alt="ww" height="573px" width="1263px"></div> <br>
+
+    <!--about weather-->
+
+    <div class="cd">
+        <div class="card" style="width: 18rem; height:17rem" >
+            <div class="card-body">
+              <p class="card-text"><u><b>What is Weather?</b></u><br>
+                Weather refers to the atmospheric conditions in a specific location at a given time. It includes temperature, humidity, wind speed, air pressure, and precipitation such as rain, snow, or hail. Weather can change rapidly due to various natural factors like the sun, wind patterns, and ocean currents.</p>
+            </div>
+        </div>
+    </div><br>
+    <div class="cd-2">
+        <div class="card" style="width: 18rem; height:17rem" >
+        <div class="card-body">
+          <p class="card-text"><u><b>Why is Weather Important?</b></u><br>
+            Weather plays a crucial role in our daily lives. It affects our clothing choices, travel plans, agriculture, and even our health. Extreme weather conditions, such as storms and heatwaves, can have a significant impact on communities and economies.</p>
+        </div>
+        </div>
+    </div><br>
+    <div class="cd-3">
+        <div class="card" style="width: 18rem; height:17rem" >
+            <div class="card-body">
+              <p class="card-text"><u><b>How is Weather Forecasted?</b></u><br> 
+                Meteorologists use advanced tools like satellites, radar systems, and weather balloons to predict weather conditions. By analyzing data such as air pressure, wind patterns, and humidity levels, they can provide accurate forecasts.</p>
+            </div>
+        </div>
+    </div><br>
+    
+    <!--types of weather-->
+    <h3 align="center"><b>Types Of Weather Conditions</b></h3><br>
+     <!--sunny-->
+    <div class="sunny">
+        <div class="card" style="width: 19rem;">
+        <img src="https://media.istockphoto.com/id/612023744/photo/blue-and-orange-sunset-sky.jpg?s=612x612&w=0&k=20&c=bqPHaI4d3ghIbLIwtbTDPxV8QQ2pIN2mbCfzLb7gucQ=" class="card-img-top" alt="sunny">
+        <div class="card-body">
+          <p class="card-text"><u><b>1. Sunny ☀️</b></u><br>
+            A sunny day is characterized by clear skies with little to no cloud cover. The sun shines brightly, providing warmth and natural light. This type of weather is common in summer and spring but can also occur in other seasons. Sunny weather is ideal for outdoor activities such as picnics, sports, and sightseeing. However, prolonged exposure to direct sunlight can cause sunburn and dehydration, so using sunscreen and staying hydrated is essential.</p>
+        </div>
+        </div>
+    </div><br>
+
+    <!--cloudy-->
+    <div class="clody">
+        <div class="card" style="width: 19rem; height:36rem">
+            <img src="https://static.bnr.bg/gallery/cr/5b24a0af393a44d7362c023c125fd555.jpg" class="card-img-top" alt="cloudy">
+            <div class="card-body">
+              <p class="card-text"><u><b>2. Cloudy ☁️</b></u><br>
+                Cloudy weather occurs when the sky is covered with clouds, reducing direct sunlight. Depending on the thickness and type of clouds, it can range from partly cloudy (where some sunlight is visible) to overcast (where the entire sky is covered). Cloudy weather can make the temperature feel cooler due to reduced solar radiation. It often precedes rain or storms and is common in various seasons.</p>
+            </div>
+        </div>
+    </div><br>
+
+    <!--rainy-->
+    <div class="rainy">
+        <div class="card" style="width: 19rem; height:36rem">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/051/263/379/small/rainy-day-serenity-water-droplets-and-floating-autumn-leaves-photo.jpg" class="card-img-top" alt="cloudy">
+            <div class="card-body">
+              <p class="card-text"><u><b>3. Rainy 🌧️</b></u><br>
+                Rain occurs when water droplets in clouds combine and become heavy enough to fall to the ground due to gravity. Rainy weather can range from light drizzles to heavy downpours and thunderstorms. It is essential for replenishing water sources, supporting agriculture, and maintaining ecological balance. However, excessive rain can lead to floods, traffic disruptions, and reduced visibility for travel.</p>
+            </div>
+        </div>
+    </div><br>
+
+    <!--snowy-->
+    <div class="snowy">
+        <div class="card" style="width: 18rem; height:36rem">
+            <img src="https://townsquare.media/site/171/files/2019/01/RS16531_613884434.jpg?w=780&q=75" class="card-img-top" alt="cloudy">
+            <div class="card-body">
+              <p class="card-text"><u><b>4. Snowy ❄️</b></u><br>
+                Snowfall occurs when water vapor in clouds freezes into ice crystals and falls to the ground as snowflakes. It is common in cold regions and during winter months. Snowy weather can create beautiful landscapes but also lead to hazards like icy roads, reduced visibility, and transportation delays. Activities such as skiing, snowboarding, and building snowmen are popular during snowy weather.</p>
+            </div>
+        </div>
+    </div><br>
+
+    <!--weather-->
+    <h3 align="center">Check Weather</h3><br>
+    <div class="weather" align="center">
+        <table>
+            <label for="location">Location: </label>
+            <input type="text" name="location" id="location"><br><br>
+            <input type="button" value="submit" class="submit">
+        </table><br>
+    </div>
+    <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
